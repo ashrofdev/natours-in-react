@@ -29,3 +29,15 @@
 .btn-green::before {
     background-color: green;
 }
+.headings {
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 1.6rem;
+    background-image: linear-gradient(to right bottom, rgb(87, 250, 87), rgb(2, 102, 2));
+    background-clip: text;
+    color: transparent;
+    transition: all .5s;
+}
+.headings:hover {
+    transform: skewY(3deg) skewX(5deg);
+}
