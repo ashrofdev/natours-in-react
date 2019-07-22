@@ -5,7 +5,7 @@ import {BtnWhite, BtnGreen} from '../Btns/Btn'
 const Header =()=>{
     return (
         <div className="header">
-            <img className="logo"/>
+            <img alt=""  className="logo"/>
             <header>
                 <h1 className="main-heading">OUTDOORS</h1>
                 <h3 className="sub-heading">IS WHERE LIFE HAPPENS</h3>

@@ -12,10 +12,13 @@ export const BtnGreen = ({name}) => {
 
 export const Heading = ({text}) =>{
     return (
-    <div className="headings">
-        <h2 className="heading-text">
-            {text}
-        </h2>
-    </div>
-)
+        <div className="headings">
+            <h2 className="heading-text">
+                {text}
+            </h2>
+        </div>
+    )
+}
+export const Link = ({text}) =>{
+    return <a href="#." className="btn-text">{text} &rarr;</a>
 }

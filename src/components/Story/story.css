@@ -1,5 +1,39 @@
 .story {
-    margin: 5rem 0;
     width: 65rem;
-    margin: auto;
+    margin: 5rem auto;
+}
+.about-grid {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    width: 60%;
+}
+.right {
+    margin-left: 5rem;
+    width: 40%;
+    position: relative;
+}
+.right .photo {
+    position: absolute;
+    width: 15rem;
+    box-shadow: 1px 1px 1rem rgb(53, 52, 52);
+    transition: all .3s;
+}
+.right .photo:hover {
+    z-index: 100;
+    padding: .5rem;
+    outline: 5px solid green;
+}
+.right .p1 {
+    top: 0;
+    left: 0;
+}
+.right .p2 {
+    top: 2rem;
+    left: 8rem;
+}
+.right .p3 {
+    top: 6rem;
+    left: 4rem;
 }
