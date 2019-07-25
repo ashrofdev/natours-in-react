@@ -1,22 +1,25 @@
 .story {
-    width: 65rem;
-    margin: 5rem auto;
+    padding-top: 5rem;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    padding-bottom: 15rem;
 }
 .about-grid {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
+    justify-content: center;
+    grid-gap: 2rem;
 }
 .left {
-    width: 60%;
+    grid-column: 2/3;
 }
 .right {
-    margin-left: 5rem;
-    width: 40%;
-    position: relative;
+    grid-column: 3/4;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 3rem);
 }
 .right .photo {
-    position: absolute;
-    width: 15rem;
+    max-width: 15rem;
     box-shadow: 1px 1px 1rem rgb(53, 52, 52);
     transition: all .3s;
 }
@@ -26,14 +29,11 @@
     outline: 5px solid green;
 }
 .right .p1 {
-    top: 0;
-    left: 0;
+    grid-column: 3/9;
 }
 .right .p2 {
-    top: 2rem;
-    left: 8rem;
+    grid-column: 5/10;
 }
 .right .p3 {
-    top: 6rem;
-    left: 4rem;
+    grid-column: 4/10;
 }

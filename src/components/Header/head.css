@@ -1,11 +1,11 @@
 .header {
     background-image: linear-gradient(to right bottom, green, green);
-    height: 90vh;
+    height: 98vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 header {
     color: #fff;
