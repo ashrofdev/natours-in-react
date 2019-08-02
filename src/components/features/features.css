@@ -1,0 +1,30 @@
+.features {
+    background-image: linear-gradient(to right, green, green);
+    padding: 20rem 0;
+    margin-top: -15rem;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
+    justify-content: center;
+}
+.cont {
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    grid-gap: 1rem;
+    text-align: center;
+}
+.feature {
+    background-color: rgba(240, 240, 243, 0.897);
+    padding: 2rem 1rem;
+    box-shadow: 1px 1px .5rem rgb(85, 84, 84);
+    border-radius: .3rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+.feature:hover {
+    transform: translateY(-1rem) scale(1.02);
+}
+p {
+    color: rgb(113, 114, 114);
+}

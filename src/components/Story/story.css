@@ -2,6 +2,7 @@
     padding-top: 5rem;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     padding-bottom: 15rem;
+    background-color: #fff;
 }
 .about-grid {
     display: grid;
