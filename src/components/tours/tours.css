@@ -37,6 +37,20 @@
 .tours .cont .cards .card .front {
     background-color: red;
 }
+.tours .cont .cards .card .front .head {
+    background-color: yellow;
+    height: 40%;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+.tours .cont .cards .card .front ul {
+    text-align: center;
+    list-style: none;
+}
+.tours .cont .cards .card .front li {
+    border-bottom: .5px solid rgb(240, 237, 237);
+    padding: .5rem;
+    margin-right: 2rem;
+}
 .tours .cont .cards .card .back {
     background-color: green;
     transform: rotateY(180deg);
