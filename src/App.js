@@ -4,6 +4,7 @@ import './App.css';
 import {BtnWhite, BtnGreen} from './components/Btns/Btn'
 import Story from './components/Story/Story';
 import Features from './components/features/Features';
+import Tours from './components/tours/Tours';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Story/>
       <Features/>
+      <Tours/>
     </div>
   );
 }

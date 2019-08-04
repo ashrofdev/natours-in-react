@@ -1,0 +1,49 @@
+.tours {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.tours h2 {
+    font-size: 2rem;
+}
+.tours .cont {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
+}
+.tours .cont .cards {
+    grid-column: 2/4;
+    display: flex;
+    justify-content: space-between;
+}
+.tours .cont .cards .card {
+    width: 20rem;
+    height: 30rem;
+    transition: all 1s;
+    perspective: 50rem;
+    position: relative;
+}
+
+.tours .cont .cards .card .side {
+    height: 30rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(#777, 0.15);
+}
+.tours .cont .cards .card .front {
+    background-color: red;
+}
+.tours .cont .cards .card .back {
+    background-color: green;
+    transform: rotateY(180deg);
+}
+.tours .cont .cards .card:hover .front {
+    transform: rotateY(-180deg);
+}
+.tours .cont .cards .card:hover .back {
+    transform: rotateY(0);
+}

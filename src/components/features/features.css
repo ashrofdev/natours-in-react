@@ -2,10 +2,12 @@
     background-image: linear-gradient(to right, green, green);
     padding: 20rem 0;
     margin-top: -15rem;
-    z-index: -1;
     display: grid;
     grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
     justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    position: relative;
+    z-index: -1;
 }
 .cont {
     grid-column: 2/4;
