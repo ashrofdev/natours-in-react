@@ -1,5 +1,5 @@
 import React from 'react'
-import {Heading} from '../Btns/Btn'
+import {Heading, Link} from '../Btns/Btn'
 import './testi.css'
 
 
@@ -17,6 +17,10 @@ const Testi = () => {
                     </div>
                 </div>
             </div>
+            <Link text={'READ ALL STORIES'}/>
+            <video autoPlay loop>
+                <source src={require('../img/video.mp4')}/>
+            </video>
         </div>
     )
 }

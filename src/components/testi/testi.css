@@ -1,6 +1,7 @@
 .testi {
     padding: 3rem;
-    background-color: red;
+    text-align: center;
+    position: relative;
 }
 .testi .cont {
     margin-bottom: 5rem;
@@ -9,4 +10,20 @@
 }
 .testi .cont .cards {
     grid-column: 2/4;
+}
+.testi .card {
+    box-shadow: 2px 2px 5px rgb(87, 86, 86);
+    padding: 3rem;
+    transform: skewX(-10deg);
+    background-color: rgba(255, 255, 255, 0.705);
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: .5;
 }
