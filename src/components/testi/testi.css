@@ -1,0 +1,12 @@
+.testi {
+    padding: 3rem;
+    background-color: red;
+}
+.testi .cont {
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
+}
+.testi .cont .cards {
+    grid-column: 2/4;
+}

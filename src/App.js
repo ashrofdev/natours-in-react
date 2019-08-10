@@ -5,6 +5,7 @@ import {BtnWhite, BtnGreen} from './components/Btns/Btn'
 import Story from './components/Story/Story';
 import Features from './components/features/Features';
 import Tours from './components/tours/Tours';
+import Testi from './components/testi/testi';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Story/>
       <Features/>
       <Tours/>
+      <Testi/>
     </div>
   );
 }
