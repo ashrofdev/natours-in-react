@@ -19,11 +19,37 @@
     margin-bottom: 2rem;
     cursor: pointer;
 }
+.testi .card .conte {
+    transform: skew(10deg);
+    display: flex;
+}
+.testi .card .img {
+    width: 30rem;
+    height: 12rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.testi .card .img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(1.4);
+    transition: all .5s;
+}
+.testi .card:hover img {
+    transform: scale(1);
+    filter: blur(.1rem) brightness(70%);
+}
 video {
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
+    height: 100%;
+    overflow: hidden;
     z-index: -1;
     opacity: .5;
+    object-fit: cover;
 }
