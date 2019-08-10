@@ -17,10 +17,10 @@
     top: 0;
     left: 0;
     z-index: -1;
-    transition: all .5s;
+    transition: all .3s;
 }
 .btn:hover::before {
-    transform: scale(1.2);
+    transform: scale(1.4);
     opacity: 0;
 }
 .btn-green {

@@ -6,6 +6,7 @@
     font-size: 2rem;
 }
 .tours .cont {
+    margin-bottom: 5rem;
     display: grid;
     grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
 }
@@ -13,17 +14,18 @@
     grid-column: 2/4;
     display: flex;
     justify-content: space-between;
+    font-weight: wrap;
 }
 .tours .cont .cards .card {
     width: 20rem;
-    height: 30rem;
+    height: 35rem;
     transition: all 1s;
     perspective: 50rem;
     position: relative;
 }
 
 .tours .cont .cards .card .side {
-    height: 30rem;
+    height: 35rem;
     transition: all 0.8s ease;
     position: absolute;
     top: 0;
@@ -32,32 +34,95 @@
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(#777, 0.15);
+    box-shadow: 1px 1px 2px rgb(107, 106, 106);
 }
 .tours .cont .cards .card .front {
-    background-color: red;
+    box-shadow: 3px 3px 1rem rgb(148, 147, 147);
+    background-color: #fff;
 }
 .tours .cont .cards .card .front .head {
-    background-color: yellow;
-    height: 40%;
+    height: 45%;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    position: relative;
+}
+.tours .cont .cards .card .front h2 {
+    position: absolute;
+    top: 20%;
+    right: 1rem;
+    z-index: 100;
+    font-size: 2rem;
+    font-weight: 200;
+    padding: .5rem;
+    margin-left: 2rem;
+    width: 12rem;
+    text-align: right;
+    color: #fff;
 }
 .tours .cont .cards .card .front ul {
     text-align: center;
     list-style: none;
+    margin-top: 2rem;
 }
 .tours .cont .cards .card .front li {
     border-bottom: .5px solid rgb(240, 237, 237);
-    padding: .5rem;
+    padding: 1rem;
     margin-right: 2rem;
+    font-size: 1.4rem;
+    color: rgb(158, 156, 156);
 }
 .tours .cont .cards .card .back {
     background-color: green;
     transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.tours .cont .cards .card .back p {
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    margin-bottom: 4rem;
+    color: #fff;
 }
 .tours .cont .cards .card:hover .front {
     transform: rotateY(-180deg);
 }
 .tours .cont .cards .card:hover .back {
     transform: rotateY(0);
+}
+.card1 .front h2 {
+    background-image: linear-gradient(to right bottom, rgba(245, 132, 40, 0.87), rgba(230, 95, 5, 0.904));
+}
+.card2 .front h2 {
+    background-image: linear-gradient(to right bottom, rgba(142, 252, 142, 0.801), rgba(3, 114, 3, 0.664));
+}
+.card3 .front h2 {
+    background-image: linear-gradient(to right bottom, rgba(112, 186, 247, 0.884), rgba(0, 13, 128, 0.836));
+}
+.card1 .front .head {
+    background-image: linear-gradient(to right bottom, rgba(245, 132, 40, 0.87), rgba(230, 95, 5, 0.904)), url(../img/nat-5.jpg);
+    background-size: cover;
+    background-blend-mode: screen;
+}
+.card2 .front .head {
+    background-image: linear-gradient(to right bottom, rgba(142, 252, 142, 0.801), rgba(3, 114, 3, 0.664)), url(../img/nat-6.jpg);
+    background-size: cover;
+    background-blend-mode: screen;
+}
+.card3 .front .head {
+    background-image: linear-gradient(to right bottom, rgba(112, 186, 247, 0.884), rgba(0, 13, 128, 0.836)), url(../img/nat-7.jpg);
+    background-size: cover;
+    background-blend-mode: screen;
+}
+.card1 .back {
+    background-image: linear-gradient(to right bottom, rgb(247, 193, 131), rgb(240, 150, 47));
+}
+.card2 .back {
+    background-image: linear-gradient(to right bottom, rgb(142, 252, 142), rgb(3, 114, 3));
+}
+.card3 .back {
+    background-image: linear-gradient(to right bottom, rgb(112, 186, 247), rgb(0, 13, 128));
 }

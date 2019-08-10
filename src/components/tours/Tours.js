@@ -1,5 +1,5 @@
 import React from 'react'
-import {Heading} from '../Btns/Btn'
+import {Heading, BtnWhite, BtnGreen} from '../Btns/Btn'
 import './tours.css'
 
 const Tours = () => {
@@ -22,7 +22,9 @@ const Tours = () => {
                             </ul>
                         </div>
                         <div className="side back">
-                            back
+                            <span>ONLY</span>
+                            <p>$297</p>
+                            <BtnWhite name={'BOOK'}/>
                         </div>
                     </div>
                     <div className="card card2">
@@ -30,7 +32,7 @@ const Tours = () => {
                             <div className="head">
                                 head
                             </div>
-                            <h2>THE SEA EXPLORER</h2>
+                            <h2>THE FOREST HIKER</h2>
                             <ul>
                                 <li>3 days tour</li>
                                 <li>up to 30 people</li>
@@ -39,7 +41,9 @@ const Tours = () => {
                             </ul>
                         </div>
                         <div className="side back">
-                            back
+                            <span>ONLY</span>
+                            <p>$497</p>
+                            <BtnWhite name={'BOOK'}/>
                         </div>
                     </div>
                     <div className="card card3">
@@ -47,7 +51,7 @@ const Tours = () => {
                             <div className="head">
                                 head
                             </div>
-                            <h2>THE SEA EXPLORER</h2>
+                            <h2>THE SNOW ADVENTURER</h2>
                             <ul>
                                 <li>3 days tour</li>
                                 <li>up to 30 people</li>
@@ -56,11 +60,14 @@ const Tours = () => {
                             </ul>
                         </div>
                         <div className="side back">
-                            back
+                            <span>ONLY</span>
+                            <p>$894</p>
+                            <BtnWhite name={'BOOK'}/>
                         </div>
                     </div>
                 </div>
             </div>
+            <BtnGreen name={'DISCOVER ALL TOURS'}/>
         </div>
     )
 }
