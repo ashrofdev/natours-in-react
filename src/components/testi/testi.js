@@ -13,6 +13,7 @@ const Testi = () => {
                         <div className="conte">
                             <div className="img">
                                 <img src={require('../img/nat-8.jpg')} />
+                                <span>JACK WILSON</span>
                             </div>
                             <div className="text">
                                 <h4>I HAD THE BEST WEEK EVER WITH MY FAMILY</h4>
@@ -22,6 +23,7 @@ const Testi = () => {
                                      repellat quis consequatur ducimus quam nisi exerci
                                      tationem omnis earum qui. Aperiam, ipsum sapiente 
                                      aspernatur libero
+                                     
                                 </p>
                             </div>
                         </div>
@@ -30,6 +32,7 @@ const Testi = () => {
                         <div className="conte">
                             <div className="img">
                                 <img src={require('../img/nat-9.jpg')} />
+                                <span>JACK WILSON</span>
                             </div>
                             <div className="text">
                                 <h4>I HAD THE BEST WEEK EVER WITH MY FAMILY</h4>

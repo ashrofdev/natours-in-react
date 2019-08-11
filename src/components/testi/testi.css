@@ -28,6 +28,17 @@
     height: 12rem;
     border-radius: 50%;
     overflow: hidden;
+    position: relative;
+}
+.testi .card .img span {
+    opacity: 0;
+    color: #fff;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,100%);
+    transition: all .5s;
 }
 .testi .card .img img {
     height: 100%;
@@ -36,9 +47,22 @@
     transform: scale(1.4);
     transition: all .5s;
 }
+.testi .card .text {
+    padding: 0 2rem;
+}
+.testi .card .text h4 {
+    font-size: 1.5rem;
+}
+.testi .card .text p {
+    font-size: 1.1rem;
+}
 .testi .card:hover img {
     transform: scale(1);
     filter: blur(.1rem) brightness(70%);
+}
+.testi .card:hover span {
+    transform: translate(-50%,-50%);
+    opacity: 1;
 }
 video {
     position: absolute;
