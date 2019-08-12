@@ -1,0 +1,13 @@
+.booking {
+    padding: 3rem 0;
+    background-color: green;
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
+}
+/* .booking .cont {
+    grid-column: 2/4;
+    height: 30rem;
+    background-image: linear-gradient(110deg, rgba(255, 255, 255, 0.774) 50%, rgba(255, 255, 255, 0.062)50%), url(../img/nat-10.jpg);
+    background-size: cover;
+    background-position: center;
+} */

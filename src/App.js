@@ -6,6 +6,7 @@ import Story from './components/Story/Story';
 import Features from './components/features/Features';
 import Tours from './components/tours/Tours';
 import Testi from './components/testi/testi';
+import Booking from './components/booking/Booking';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Features/>
       <Tours/>
       <Testi/>
+      <Booking/>
     </div>
   );
 }
