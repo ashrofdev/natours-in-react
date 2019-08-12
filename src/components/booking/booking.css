@@ -9,5 +9,5 @@
     height: 30rem;
     background-image: linear-gradient(110deg, rgba(255, 255, 255, 0.774) 50%, rgba(255, 255, 255, 0.062)50%), url(../img/nat-10.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
