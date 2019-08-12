@@ -6,6 +6,7 @@
     margin-top: 2rem;
     position: relative;
     box-shadow: 2px 2px .5rem rgb(36, 35, 35);
+    z-index: 100;
 }
 .btn::before {
     content: "";

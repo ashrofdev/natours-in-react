@@ -7,7 +7,21 @@
 .booking .cont {
     grid-column: 2/4;
     height: 30rem;
-    background-image: linear-gradient(110deg, rgba(255, 255, 255, 0.774) 50%, rgba(255, 255, 255, 0.062)50%), url(../img/nat-10.jpg);
+    background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.774) 55%, rgba(255, 255, 255, 0.062)55%), url(../img/nat-10.jpg);
     background-size: cover;
     background-position: center; 
+    padding: 0 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.booking .cont h2 {
+    font-size: 2rem;
+}
+.booking .cont input {
+    font-size: 1.1rem;
+    padding: .5rem;
+    display: block;
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 2.4rem;
 }
