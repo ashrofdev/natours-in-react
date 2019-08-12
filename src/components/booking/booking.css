@@ -17,11 +17,17 @@
 .booking .cont h2 {
     font-size: 2rem;
 }
-.booking .cont input {
+.booking .cont .input {
     font-size: 1.1rem;
     padding: .5rem;
     display: block;
     margin-bottom: 1rem;
-    width: 20rem;
+    width: 25rem;
     height: 2.4rem;
+}
+.checks {
+    display: flex;
+}
+.book .checks input {
+    margin: 0 1rem;
 }

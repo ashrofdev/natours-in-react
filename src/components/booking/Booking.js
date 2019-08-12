@@ -8,11 +8,15 @@ const Booking = () => {
             <div className="cont">
                 <div className="book">
                     <Heading text="START BOOKING NOW" />
-                    <input placeholder="Full Name"/>
-                    <input placeholder="Email Address" type="email"/>
+                    <input className="input" placeholder="Full Name"/>
+                    <input className="input" placeholder="Email Address" type="email"/>
                     <div className="checks">
-                        <input placeholder="testing" type="radio"/>
-                        <input type="radio"/>
+                        <label>
+                            <input name="tour" placeholder="testing" type="radio"/>Small tour group
+                        </label>
+                        <label>
+                            <input name="tour" placeholder="testing" type="radio"/>Large tour group
+                        </label>
                     </div>
                     <BtnGreen name="NEXT STEP"/>
                 </div>
