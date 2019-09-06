@@ -7,6 +7,7 @@ import Features from './components/features/Features';
 import Tours from './components/tours/Tours';
 import Testi from './components/testi/testi';
 import Booking from './components/booking/Booking';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Tours/>
       <Testi/>
       <Booking/>
+      <Footer/>
     </div>
   );
 }

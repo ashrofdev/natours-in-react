@@ -1,0 +1,39 @@
+.footer {
+    padding: 5rem;
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.foot .left {
+    border-top: 1px solid white;
+
+}
+.left ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.left ul li {
+    font-size: .8rem;
+    text-transform: uppercase;
+    list-style: none;
+    color: white;
+    padding: .3rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+.left ul li:hover {
+    transform: rotate(5deg);
+    color: green;
+}
+.foot .text {
+    color: white;
+    width: 40%;
+}
