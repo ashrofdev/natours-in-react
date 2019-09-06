@@ -1,9 +1,12 @@
 .header {
-    background-image: linear-gradient(to right bottom, green, green);
+    background-image: linear-gradient(to right bottom, rgba(0, 128, 0, 0.733), rgba(0, 128, 0, 0.678)), url(../img/hero.jpg);
     height: 98vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     align-items: center;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }

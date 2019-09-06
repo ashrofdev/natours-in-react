@@ -11,7 +11,6 @@ const Tours = () => {
                     <div className="card card1">
                         <div className="side front">
                             <div className="head">
-                                head
                             </div>
                             <h2>THE SEA EXPLORER</h2>
                             <ul>
@@ -30,7 +29,6 @@ const Tours = () => {
                     <div className="card card2">
                         <div className="side front">
                             <div className="head">
-                                head
                             </div>
                             <h2>THE FOREST HIKER</h2>
                             <ul>
@@ -49,7 +47,6 @@ const Tours = () => {
                     <div className="card card3">
                         <div className="side front">
                             <div className="head">
-                                head
                             </div>
                             <h2>THE SNOW ADVENTURER</h2>
                             <ul>

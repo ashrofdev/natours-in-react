@@ -1,7 +1,10 @@
 .features {
-    background-image: linear-gradient(to right, green, green);
+    background-image: linear-gradient(to right bottom, rgba(0, 128, 0, 0.733), rgba(0, 128, 0, 0.678)), url(../img/nat-6.jpg);
     padding: 20rem 0;
     margin-top: -15rem;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     display: grid;
     grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
     justify-content: center;

@@ -35,5 +35,7 @@
 }
 .foot .text {
     color: white;
+    font-size: .8rem;
     width: 40%;
+    line-height: 1.3rem;
 }
