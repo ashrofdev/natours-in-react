@@ -40,8 +40,15 @@
     }
 }
 @media only screen and (max-width: 500px) {
+    .booking {
+        padding: 1rem;
+    }
     .booking .cont {
         background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.774), rgba(255, 255, 255, 0.062)), url(../img/nat-10.jpg);
+    }
+    .booking .cont .input {
+        width: 15rem;
+        margin: 1rem auto;
     }
     .checks {
         flex-direction: column;

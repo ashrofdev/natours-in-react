@@ -84,7 +84,7 @@ video {
     .testi .card .conte {
         transform: skew(0deg);
     }
-  }
+}
   @media only screen and (max-width: 500px) {
     .testi .cont {
         display: block;
@@ -92,6 +92,8 @@ video {
     .testi .card {
         padding: 0;
       transform: skew(0deg);
+      width: 80vw;
+      margin: 1rem auto;
     }
     .testi .card .conte {
         flex-direction: column;
