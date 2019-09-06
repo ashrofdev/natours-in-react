@@ -44,10 +44,15 @@
     .foot {
         flex-direction: column;
         align-items: center;
+        padding: 1rem;
     }
     .foot .text {
-        width: 100%;
+        width: 90%;
         margin-top: 2rem;
         text-align: center;
+    }
+    .left ul li {
+        font-size: .7rem;
+        padding: .1rem;
     }
 }

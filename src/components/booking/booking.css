@@ -31,9 +31,19 @@
 .book .checks input {
     margin: 0 1rem;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     .booking {
         display: block;
     }
-   
-  }
+    .booking .cont .input {
+        width: 18rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .booking .cont {
+        background-image: linear-gradient(100deg, rgba(255, 255, 255, 0.774), rgba(255, 255, 255, 0.062)), url(../img/nat-10.jpg);
+    }
+    .checks {
+        flex-direction: column;
+    }
+}

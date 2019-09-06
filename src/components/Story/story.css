@@ -41,5 +41,9 @@
 @media only screen and (max-width: 500px) {
     .about-grid {
         display: block;
+        text-align: center;
+    }
+    .right {
+        display: block;
     }
 }

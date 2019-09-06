@@ -90,6 +90,7 @@ video {
         display: block;
     }
     .testi .card {
+        padding: 0;
       transform: skew(0deg);
     }
     .testi .card .conte {

@@ -52,3 +52,11 @@
     background-color: green;
     color: #fff;
 }
+
+@media only screen and (max-width: 500px) {
+    .headings {
+        text-align: center;
+        margin: 3rem 0;
+        font-size: 1rem;
+    }
+}
