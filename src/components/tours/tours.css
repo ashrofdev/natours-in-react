@@ -8,7 +8,7 @@
 .tours .cont {
     margin-bottom: 5rem;
     display: grid;
-    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
+    grid-template-columns: 1fr repeat(2, minmax(20rem, 30rem)) 1fr; 
 }
 .tours .cont .cards {
     grid-column: 2/4;
@@ -125,4 +125,18 @@
 }
 .card3 .back {
     background-image: linear-gradient(to right bottom, rgb(112, 186, 247), rgb(0, 13, 128));
+}
+
+@media only screen and (max-width: 800px) {
+    .tours .cont {
+        display: block;
+    }
+    .tours .cont .cards {
+      display: block;
+    }
+    .tours .cont .cards .card {
+        width: 70vw;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
 }

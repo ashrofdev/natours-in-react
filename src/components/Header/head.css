@@ -24,3 +24,20 @@ header {
     letter-spacing: 1.5rem;
     font-weight: 500;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .header {
+        text-align: center;
+    }
+    .main-heading {
+        font-size: 3rem;
+        letter-spacing: 1rem;
+        font-weight: 300;
+        margin: 0;
+    }
+    .sub-heading {
+        letter-spacing: 1rem;
+        font-weight: 500;
+    }
+}

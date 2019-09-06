@@ -33,3 +33,14 @@
 p {
     color: rgb(113, 114, 114);
 }
+.feature .icon .fa {
+    font-size: 3rem;
+    background-image: linear-gradient(to right, rgb(13, 241, 13), rgb(6, 145, 6));
+    background-clip: text;
+    color: transparent;
+}
+@media only screen and (max-width: 500px) {
+    .features {
+        display: block;
+    }
+}

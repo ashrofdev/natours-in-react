@@ -6,7 +6,7 @@
 .testi .cont {
     margin-bottom: 5rem;
     display: grid;
-    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
+    grid-template-columns: 1fr repeat(2, minmax(20rem, 30rem)) 1fr; 
 }
 .testi .cont .cards {
     grid-column: 2/4;
@@ -77,3 +77,30 @@ video {
     opacity: .5;
     object-fit: cover;
 }
+@media only screen and (max-width: 800px) {
+    .testi .card {
+      transform: skew(0deg);
+    }
+    .testi .card .conte {
+        transform: skew(0deg);
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .testi .cont {
+        display: block;
+    }
+    .testi .card {
+      transform: skew(0deg);
+    }
+    .testi .card .conte {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testi .card .img {
+        width: 10rem;
+        height: 12rem;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+  }

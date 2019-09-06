@@ -2,7 +2,7 @@
     padding: 3rem 0;
     background-color: green;
     display: grid;
-    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
+    grid-template-columns: 1fr repeat(2, minmax(20rem, 30rem)) 1fr; 
 }
 .booking .cont {
     grid-column: 2/4;
@@ -31,3 +31,9 @@
 .book .checks input {
     margin: 0 1rem;
 }
+@media only screen and (max-width: 500px) {
+    .booking {
+        display: block;
+    }
+   
+  }

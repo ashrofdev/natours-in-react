@@ -6,7 +6,7 @@
 }
 .about-grid {
     display: grid;
-    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(2rem, 1fr); 
+    grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(20rem, 30rem)) minmax(1rem, 1fr); 
     justify-content: center;
     grid-gap: 2rem;
 }
@@ -37,4 +37,9 @@
 }
 .right .p3 {
     grid-column: 4/10;
+}
+@media only screen and (max-width: 500px) {
+    .about-grid {
+        display: block;
+    }
 }
