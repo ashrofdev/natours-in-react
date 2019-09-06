@@ -145,5 +145,6 @@
     .tours .cont .cards .card {
         width: 80vw;
         margin: auto;
+        margin-bottom: 2rem;
     }
 }
