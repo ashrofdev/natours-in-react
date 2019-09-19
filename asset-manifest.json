@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/natours-in-react/static/css/main.f2fae9a9.chunk.css",
+    "main.js": "/natours-in-react/static/js/main.81e916c8.chunk.js",
+    "main.js.map": "/natours-in-react/static/js/main.81e916c8.chunk.js.map",
+    "runtime~main.js": "/natours-in-react/static/js/runtime~main.d5aade79.js",
+    "runtime~main.js.map": "/natours-in-react/static/js/runtime~main.d5aade79.js.map",
+    "static/css/2.2efec9e8.chunk.css": "/natours-in-react/static/css/2.2efec9e8.chunk.css",
+    "static/js/2.e3edc809.chunk.js": "/natours-in-react/static/js/2.e3edc809.chunk.js",
+    "static/js/2.e3edc809.chunk.js.map": "/natours-in-react/static/js/2.e3edc809.chunk.js.map",
+    "index.html": "/natours-in-react/index.html",
+    "precache-manifest.f1b118b024e4b27eb889e5bf07ee6d73.js": "/natours-in-react/precache-manifest.f1b118b024e4b27eb889e5bf07ee6d73.js",
+    "service-worker.js": "/natours-in-react/service-worker.js",
+    "static/css/2.2efec9e8.chunk.css.map": "/natours-in-react/static/css/2.2efec9e8.chunk.css.map",
+    "static/css/main.f2fae9a9.chunk.css.map": "/natours-in-react/static/css/main.f2fae9a9.chunk.css.map",
+    "static/media/font-awesome.min.css": "/natours-in-react/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/head.css": "/natours-in-react/static/media/hero.6e09f410.jpg",
+    "static/media/logo-green-1x.png": "/natours-in-react/static/media/logo-green-1x.4c42c11f.png",
+    "static/media/nat-1.jpg": "/natours-in-react/static/media/nat-1.d6c15bf0.jpg",
+    "static/media/booking.css": "/natours-in-react/static/media/nat-10.2797561f.jpg",
+    "static/media/nat-2.jpg": "/natours-in-react/static/media/nat-2.4d378368.jpg",
+    "static/media/nat-3.jpg": "/natours-in-react/static/media/nat-3.cc2b0543.jpg",
+    "static/media/tours.css": "/natours-in-react/static/media/nat-7.5f846d16.jpg",
+    "static/media/nat-8.jpg": "/natours-in-react/static/media/nat-8.14efd82b.jpg",
+    "static/media/nat-9.jpg": "/natours-in-react/static/media/nat-9.b525a99b.jpg",
+    "static/media/video.mp4": "/natours-in-react/static/media/video.ffcd876c.mp4"
+  }
+}
