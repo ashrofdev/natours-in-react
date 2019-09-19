@@ -22,13 +22,13 @@ const Booking = () => {
                     <div className="checks">
                         <label>
                             <div className="r r1">
-                                
+                                <span></span>
                             </div>
                             <input onChange={onclick} name="tour" placeholder="testing" type="radio"/>Small tour group
                         </label>
                         <label>
                             <div className="r r2">
-                                
+                                <span></span>
                             </div>
                             <input onChange={onclick2} name="tour" placeholder="testing" type="radio"/>Large tour group
                         </label>

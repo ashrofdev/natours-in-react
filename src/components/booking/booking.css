@@ -39,20 +39,21 @@
 }
 
 .r {
-    background-color: green;
-    height: 1.5rem;
-    width: 1.5rem;
+    background-color: rgb(216, 214, 214);
     border-radius: 50%;
+    padding: .5rem .0005rem;
+    transition: all 1s;
 }
-.inside {
+.r span {
+    padding: .00005rem .5rem;
+    background-color: green;
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    background-color: white;
+    margin: .5rem;
+    border: 2px solid white;
 }
 
 .check {
-    background-color: rgb(168, 243, 202);
+    background-color: green;
 }
 
 @media only screen and (max-width: 800px) {
